@@ -1,0 +1,49 @@
+body {
+    background: #f0f4fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #e60039 !important;
+  }
+  .hero-section {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-text h1 {
+    font-weight: 700;
+  }
+  .highlight {
+    color: #e60039;
+  }
+  .btn-download {
+    background-color: #e60039;
+    border: none;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  .btn-download:hover {
+    background-color: #b4002c;
+  }
+  .profile-img {
+    max-width: 300px;
+    border-radius: 8px;
+    filter: grayscale(50%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+  .profile-img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+  }
+  .section-content {
+    padding: 60px 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 0.1);
+    margin-bottom: 50px;
+  }
+  
